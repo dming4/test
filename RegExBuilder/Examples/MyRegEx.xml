@@ -1,0 +1,5 @@
+<?xml version="1.0"?><!--RegEx Builder Save File--><RegEx><RegularExpression>\b(?&lt;month&gt;\d{1,2})/
+(?&lt;day&gt;\d{1,2})/
+(?&lt;year&gt;\d{2,4})\b</RegularExpression><TargetText>Today is 11/26/2008 last month was 10/26/2008.
+11/25/2008
+</TargetText><Options>96</Options></RegEx>

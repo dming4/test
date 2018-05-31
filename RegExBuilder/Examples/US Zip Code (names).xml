@@ -1,0 +1,4 @@
+<?xml version="1.0"?><!--RegEx Builder Save File--><RegEx><RegularExpression>(?&lt;zipcode&gt;\d{5}(?:-\d{4})?)</RegularExpression><TargetText>This is a valid Zip+4 97140-6300
+This is a valid zip 97006
+This is not valid 9502-2003
+</TargetText><Options>0</Options></RegEx>

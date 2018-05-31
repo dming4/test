@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!--RegEx Builder Save File--><RegEx><RegularExpression>"(?&lt;month&gt;\d{1,2})/(?&lt;day&gt;\d{1,2})/(?&lt;year&gt;\d{2,4})",
+"(?&lt;dest&gt;[\w, ]+)",
+"(?&lt;time&gt;\d{1,2}:\d{2} (?:AM|PM))",
+"(?&lt;number&gt;\(?\d{3}\)?[-\s._]?\d{3}[-\s._]?\d{4})",
+"(?&lt;calltype&gt;(?:\(?\w\)?)*)",
+"(?&lt;minutes&gt;\d)",
+"(?&lt;airtime&gt;-)",
+"(?&lt;toll&gt;-)",
+"(?&lt;total&gt;-)"</RegularExpression><TargetText>Date,Destination,Time,Number,Call Type,Minutes,Airtime,Toll,Total
+"6/07/08","Beaverton, OR","8:23 AM","503-555-1212","(V)","4","-","-","-"
+"6/07/08","Incoming","9:29 AM","503-555-1212","(V)","4","-","-","-"
+"6/07/08","Portland, OR","11:38 AM","503-555-1212","","2","-","-","-"</TargetText><Options>0</Options></RegEx>

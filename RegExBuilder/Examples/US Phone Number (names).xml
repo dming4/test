@@ -1,0 +1,10 @@
+<?xml version="1.0"?><!--RegEx Builder Save File--><RegEx><RegularExpression>(?&lt;longdist&gt;1-)?
+\(?(?&lt;area_code&gt;\d{3})\)?
+[-\s._]?
+(?&lt;prefix&gt;\d{3})[-\s._]?
+(?&lt;suffix&gt;\d{4})
+(?:\s*x(?&lt;extension&gt;\d+)?)?</RegularExpression><TargetText>503-267-9505
+1-(503)267-9505
+(503)267-9505x124
+(503)267-9505 x124
+</TargetText><Options>0</Options></RegEx>
